@@ -1,0 +1,5 @@
+- **[WSL and Docker config](https://docs.docker.com/desktop/windows/wsl/).**
+- **[WSL connection through a development environment (VS code)](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack). The point is to be able to enter linux and access the project files.**
+- **Select any folder for example: `/home/user/` and pull down via git.**
+- **Entering the root of the project `./vendor/bin/sail up` which starts the Docker container (it may take a long time for the first start!).**
+- **Then installation via sail commands: `./vendor/bin/sail composer install`, `./vendor/bin/sail npm install`, `./vendor/bin/sail npm run dev`.**
