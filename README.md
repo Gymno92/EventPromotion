@@ -1,6 +1,6 @@
 - **[WSL and Docker config](https://docs.docker.com/desktop/windows/wsl/).**
 - **[WSL connection through a development environment (VS code)](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack). The point is to be able to enter linux and access the project files.**
-- **Select any folder for example: `/home/user/` and pull down via git.**
+- **Select any folder for example: `/home/user/` and clone the repo.**
 - **Entering the root of the project**
 - **Create `.env` file with copy of the `.env.example` content**
 - **Installing Composer Dependencies: 
